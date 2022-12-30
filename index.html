@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Shubham Solanki </title>
+
+    <head>
+        <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+        </link>
+        <script type="text/javascript">
+            function validate() {
+                var username = document.
+                    getEementById("name");
+                var mess = document.
+                    getEementById("message");
+                var number = document.
+                    getEementById("mobile");
+                if (number.value.trim() == "") {
+                    alert(
+                        "No blank value Allowed");
+                    return false;
+                }
+                else {
+                    true;
+                }
+                if (number.value.trim().length < 10) {
+                    alert(
+                        "Wrong Mobile No.");
+                    return false;
+                }
+                else {
+                    true;
+                }
+                if (number.value.trim().length > 10) {
+                    alert(
+                        "Wrong Mobile No.");
+                    return false;
+                }
+                else {
+                    true;
+                }
+                if (username.value.trim() == "" || mess.value.trim() == "") {
+                    alert(
+                        " No blank value Allowed ");
+                    return false;
+                }
+                else {
+                    true;
+                    alert(
+                        "thank you submit")
+                }
+            }
+        </script>
+        <style>
+            /* <-----------------------All Body ---------------> */
+
+            body {
+                background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Ffree-background&psig=AOvVaw3MPzKhaJI2aOl3sY1r8i4z&ust=1672460690987000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJjQxIT1ofwCFQAAAAAdAAAAABAE);
+
+                background-size: cover;
+                margin: 1%;
+
+            }
+
+            .main {
+                text-align: center;
+                align-items: center;
+            }
+
+            /* <-------------- navigation ----------> */
+            .navigation img {
+                display: inline-flex;
+                width: 5%;
+                border-radius: 50%;
+                margin-top: 5%;
+                margin-top: 1%;
+
+            }
+
+            .navigation h1 {
+                display: inline-block;
+                color: white;
+                margin-top: 2%;
+                margin-left: 4%;
+
+            }
+
+            /* <-------------about----------------> */
+
+            .me img {
+                width: 200px;
+                border-radius: 57%;
+
+            }
+
+            .me {
+                margin: 3%;
+                color: white;
+                font-style: italic;
+
+            }
+
+            .lan img {
+                display: inline-block;
+                width: 60px;
+                border-radius: 14px;
+            }
+
+            /*  <----------------project---------------> */
+            .projects img {
+                border-radius: 3%;
+                background-color: violet;
+                width: 300px;
+                margin: auto;
+            }
+
+            .projects img:hover {
+                width: 303px;
+            }
+
+            /* <------------Social Media------------->*/
+
+            .social.img {
+                display: inline-block;
+                width: 5%;
+                border-radius: 50%;
+            }
+
+            .social.img {
+                display: inline-block;
+                width: 7%;
+                border-radius: 50%;
+            }
+
+            /* <------------------------contact-------------> */
+
+            textarea {
+                width: 345px;
+                height: 90px;
+                background-color: black;
+                color: white;
+                font-size: larger;
+                border-radius: 1%;
+            }
+
+            input {
+                width: 345px;
+                height: 46px;
+                background-color: black;
+                color: white;
+                font-size: large;
+                border-radius: 1%;
+            }
+
+            button {
+                width: 200px;
+                height: 45px;
+                background-color: black;
+                color: white;
+                font-size: large;
+                border-radius: 5px;
+                margin-right: 155px;
+            }
+
+            button:hover {
+                background-color: aqua;
+                cursor: pointer;
+                border: 3px solid silver;
+            }
+        </style>
+    </head>
+
+<body>
+    <div class="navigation">
+        <a href="/index"><img src="logo.jpg" alt=""></a>
+        <h1>Shubham Solanki</h1>
+        <hr>
+
+    </div>
+    <div class="main">
+        <h1 style="color: white;">
+            Hiii, My Name is Shubham ...</h1> <br>
+        <h2 style="color: aqua;"> About Me <br>------</h2>
+
+        <div class="me">
+            <img src="logo.jpg">
+            <h1>Shubham Solanki</h1>
+            <h3> Hii.I'M Shubham, I Am a first year BCA Student, I code mainly n HTML,CSS and javascript. </h3>
+            <h3></h3>
+        </div>
+        <div class="lan">
+        <img src="https://www.priyansh.xyz/assets/about/skills/HTML.svg" alt="">
+        <img src="https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_960_720.png" alt="">
+        <img src="https://www.priyansh.xyz/assets/about/skills/CSS.svg" alt="">
+    </div>
+    <br>
+
+    <form onsubmit="return validate()" actions="" method="">
+        <input id="name" type="text" name="name" placehoder="Your Name"> <br><br>
+        <input id="mobile" type="text" name="mobile" placehoder="Mobile No."><br><br>
+        input id="E-Mail"type="text" name="E-Mail"placehoder="E-Mail."><br><br>
+        <textarea name="message" id="message" cols="30" rows="10" placehoder="Your Message"></textarea><br><br>
+
+        <button>Send Message</button>
+    </form> <br>
+
+    <div class="design">
+        <h2 style="color: aqua;"> Social Media <br>------------</h2>
+    </div>
+    <div class="social">
+        <a href="https://github.com/ShubhamSolankiSen"> </a>
+        <a
+            href="I'm on Instagram as @shubham_sen. Install the app to follow my photos and videos. https://www.instagram.com/invites/contact/?i=rqigsyphrs8q&utm_content=o5obfif"></a>
+    </div>
+    </div>
+
+
+</body>
+
+</html>
