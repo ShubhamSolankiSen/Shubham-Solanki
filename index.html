@@ -70,10 +70,11 @@
             /* <-------------- navigation ----------> */
             .navigation img {
                 display: inline-flex;
-                width: 5%;
+                width: 8%;
                 border-radius: 50%;
                 margin-top: 5%;
                 margin-top: 1%;
+
 
             }
 
@@ -89,14 +90,14 @@
 
             .me img {
                 width: 200px;
-                border-radius: 57%;
+                border-radius: 17%;
 
             }
 
             .me {
                 margin: 3%;
                 color: white;
-                font-style: italic;
+                font-family: 'EB Garamond', serif;
 
             }
 
@@ -161,32 +162,54 @@
                 cursor: pointer;
                 border: 3px solid silver;
             }
+            li{
+                display: inline-flex;
+                font-size: larger;
+                list-style: none;
+                color: white;
+                padding: 4px;
+                flex-wrap: wrap;
+                float: right;
+            }
+
+            li:hover{
+                cursor: pointer;
+                /* color: cadetblue; */
+                opacity: 60%;
+            }
+                
+            
         </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap" rel="stylesheet">
     </head>
 
 <body>
+    <header>
+        <ul>
+            <li>project
+            </li>
+            <li>About</li>
+            <li>contact</li>
+            <li>Home</li>
+        </ul>
+    </header>
     <div class="navigation">
-        <a href="/index"><img src="logo.jpg" alt=""></a>
+        <a href="/index"><img src="shubham.jpg" alt=""></a>
                      <h1>Shubham Solanki</h1>
                     <hr>
 
     </div>
     <div class="main">
         <h1 style="color: white;">
-            <i>Shubham</i>..... <span class="auto-type"style="color:red;"></span></h1><br>
+            <i></i> <span class="auto-type"style="color:red;"></span></h1><br>
                 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-        <script>
-                    var typed = new Typed(".auto-type",{ 
-                 strings:["Shubham .."," A Student .."], 
-                 typeSpeed:120, 
-                 backSpeed:120, 
-                 loop:true 
-             }) 
-         </script>
+
         
         <div class="me">
-            <img src="logo.jpg">
-            <h1>Shubham Solanki</h1>
+            <img src="shubham.jpg">
+            <h1> <span style="color:aqua"> Shubham Solanki</span></h1>
             <h3> Hii.I'M Shubham, I Am a first year BCA Student of Gyanodaya College, I code mainly in HTML,CSS and Javascript. </h3>
             <h3></h3>
             
@@ -223,3 +246,4 @@
 </body>
 
 </html>
+
